@@ -37,4 +37,7 @@ public class CommentController {
         List<CommentDto> dtos=commentService.getAllCommentsByPostId(postId);
         return new ResponseEntity<>(dtos,HttpStatus.OK);
     }
+    public String test()
+    {
+        return null;
 }
